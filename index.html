@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="./style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="headerbar ">
+            <div class="nav-logo hover">
+                <div class="logo">
+                   <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=155259813593&hvpone=&hvptwo=&hvadid=674893540034&hvpos=&hvnetw=g&hvrand=17785174046435322253&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9303097&hvtargid=kwd-64107830&hydadcr=14452_2316413&gad_source=1" alt="Amazon website"> <img src="./images/amazon-logo-12.png">
+                    <span id="in">.in</span>
+                </a>
+                </div>
+            </div>
+            <div class="nav-loc  hover">
+                <div class="location">
+                    <div class="add2">
+                    <span>Deliver to</span>
+                    </div>
+                    <div class="add1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                        </svg>
+                        <span>India</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search">
+                    <div id="select">
+                    <select id="option">
+                        <option>All</option>
+                    </select>
+                    </div>
+                    <div class="searchbar">
+                    <input id="bar" type="text" placeholder="Search in Amazon">
+                    </div>
+                    <div class="search-button">
+                    <button id="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg></button>
+                    </div>                
+            </div>
+            <div class="country hover">
+                     <div class="flag">
+                        <img src="./images/Flag_of_India.svg.webp">
+                    </div>
+                    <div >
+                        <select id="lang">
+                             <option >
+                                EN
+                            </option>
+                        </select>
+                    </div>
+            </div>
+            <div class="sign hover">
+                <div id="signin">Hello,Sign in</div>
+                <div>
+                <select id="accounts">
+                    <option>Accounts & Lists</option>
+                </select>
+                </div>
+            </div>
+            <div class="return hover">
+                <div id="return">Returns</div>
+                <div id="orders">& Orders</div>
+            </div>
+            <div class="cart hover">
+                <div class="cartimg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg>
+                </div>
+                <div id="cartname">Cart</div>
+            </div>
+        </div>
+    
+        <div class="bar2">
+            <button class="all-list ">
+            <div class="all hover">
+                <div id="all">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" >
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </div>   
+                    <div id="all-list">All</div>
+            </div>
+            </button>
+            <button class="all-list">
+            <div class="item">
+                <div id="fresh">
+                    Fresh
+                </div>
+            </div> 
+             </button>
+            <button class="all-list">
+            <div class="item">
+                <div id="miniTV">
+                    Amazon miniTv
+                </div>
+            </div>
+            </button>
+            <button class="all-list">
+            <div class="item">
+                <div id="Sell">
+                    Sell
+                </div>
+            </div> 
+            </button>
+            <button class="all-list">
+            <div class="item">
+                <div id="Sellers">
+                    Best Sellers
+                </div>
+            </div>  
+            </button>
+            <button class="all-list">
+            <div class="item">
+                <div id="deals">
+                    Today's Deals
+                </div>
+            </div> 
+            </button>
+            <button class="all-list"> 
+            <div class="item">
+                <div id="mobiles">
+                    Mobiles
+                </div>
+            </div> 
+             </button>
+            <button class="all-list">
+            <div class="item">
+                <div >
+                    <select id="Prime">
+                        <option>Prime</option>
+                    </select>
+                </div>
+            </div> 
+             </button>
+            <button class="all-list">
+            <div class="item">
+                <div id="service">
+                    Customer Service
+                </div>
+            </div> 
+            </button>
+            <button class="all-list">
+            <div class="item">
+                <div id="electronics">
+                    Electronics
+                </div>
+            </div> 
+            </button>
+        </div>
+    </header>
+        
+            <div class="view1">
+                <img src="./images/DEALS-REVEALED_hero_PC_pse_2x_2._CB568242801_.jpg">
+            </div>
+            <div class="above"></div>
+                <div class="arrows">
+                  <div class="larrow"><div id="arrows">  <button><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#232b2b" class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
+                        <path fill-rule="#232b2b" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223"/>
+                      </svg></button></div></div>
+                   <div class="rarrow"><div id="arrows"> <button><a href="www.google.com"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#232b2b" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671"/>
+                      </svg></button></div>
+                </div></div>
+            <div class="view2">
+                   
+                <div class="revamp-home box">
+                    <div id="box-text">Revamp your home in Style</div>
+                        <div class="top-1">
+                            <div class="left">
+                               <a href="https://www.amazon.in/b/?_encoding=UTF8&node=1380442031&pd_rd_w=g9a0Z&content-id=amzn1.sym.c576bafe-6547-43fe-9f02-985aa18c2f8d&pf_rd_p=c576bafe-6547-43fe-9f02-985aa18c2f8d&pf_rd_r=ZYPVWM7S0R8P28QT0ANN&pd_rd_wg=t0FSe&pd_rd_r=51ee0447-826c-46ae-8776-339bf607e8ac&ref_=pd_hp_d_atf_unk&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522" alt="home furnishing"><img src="./images/186x116_Home_furnishings_2._SY116_CB555624324_.jpg" alt="Home furnishing">
+                                <span>Cushion covers, bedsheets & more</span></a> 
+                            </div>
+                            <div class="right">
+                               <a  href="www.amazon.com" alt="Amazon"> <img src="./images/186x116_Home_decor_1._SY116_CB555624324_.jpg" alt="Home decor">
+                                <span>Figurines, vases & more</span></a>
+                            </div>
+                        </div>
+                        <div class="bottom-1">
+                            <div class="left">
+                                <a href="www.amazon.com" alt="Amazon"> <img src="./images/186x116_Home_storage_1._SY116_CB555624324_.jpg" alt="Home storage">
+                                <span>Home storage</span></a>
+                            </div>
+                            <div class="right">
+                                <a href="www.amazon.com" alt="Amazon"> <img src="./images/186x116_Home_lighting_2._SY116_CB555624324_.jpg" alt="Home lightning">
+                                <span>Lightning solutions</span></a>
+                            </div>
+                        </div>
+                        <a href="#" id="box-end">Explore all</a>
+                </div>
+                <div class="appliances box">
+                    <div id="box-text">Starting Rs.149 | Headphones</div>
+                        <div class="top-1">
+                            <div class="left">
+                                <a href="www.amazon.com" alt="Amazon"> <img src="./images/PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg" alt="boat Headphone">
+                                <span>Starting Rs.249 | boAt</span></a>
+                            </div>
+                            <div class="right">
+                                <a href="www.amazon.com" alt="Amazon"> <img src="./images/PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg" alt="Boult">
+                                <span>Starting Rs.349 | boult</span></a>
+                            </div>
+                        </div>
+                        <div class="bottom-1">
+                            <div class="left">
+                                <a href="www.amazon.com" alt="Amazon"> <img src="./images/PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg" alt="noise">
+                                <span>Starting Rs.649 | Noise</span></a>
+                            </div>
+                            <div class="right">
+                                <a href="www.amazon.com" alt="Amazon"> <img src="./images/PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg" alt="Zebronic">
+                                <span>Starting Rs.149 | Zebronics</span></a>
+                            </div>
+                        </div>
+                        <a  href="#" id="box-end">See all offers</a>
+                </div>
+                <div class="starting-hp box">
+                    <div id="box-text">Appliances for your home | Up to 55% off</div>
+                        <div class="top-1">
+                            <div class="left">
+                                <a href="www.amazon.com" alt="Amazon"> <img src="./images/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg" alt="Air conditioners">
+                                <span>Air conditioners</span></a>
+                            </div>
+                            <div class="right">
+                                <a href="www.amazon.com" alt="Amazon"> <img src="./images/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg" alt="Refrigerators">
+                                <span>Refrigerators</span></a>
+                            </div>
+                        </div>
+                        <div class="bottom-1">
+                            <div class="left">
+                                 <a href="www.amazon.com" alt="Amazon"><img src="./images/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg" alt="Microwaves">
+                                <span>Microwaves</span></a>
+                            </div>
+                            <div class="right">
+                                 <a href="www.amazon.com" alt="Amazon"><img src="./images/186x116---wm._SY116_CB667322346_.jpg" alt="Washing machines">
+                                <span>Washing machines</span></a>
+                            </div>
+                        </div>
+                        <a  href="#" id="box-end">See more</a>
+                </div>
+                <div class="60%-off box">
+                    <div id="box-text">Automotive essentials | Up to 60% off</div>
+                        <div class="top-1">
+                            <div class="left">
+                                <a href="www.amazon.com" alt="Amazon"> <img src="./images/Glasscare1X._SY116_CB410830553_.jpg" alt="Cleaning accessories">
+                                <span>Cleaning accessories</span></a>
+                            </div>
+                            <div class="right">
+                                 <a href="www.amazon.com" alt="Amazon"><img src="./images/Rim_tyrecare1x._SY116_CB410830552_.jpg" alt="Tyre">
+                                <span>Tyre & rim care</span></a>
+                            </div>
+                        </div>
+                        <div class="bottom-1">
+                            <div class="left">
+                                <a href="www.amazon.com" alt="Amazon"><img src="./images/Vega_helmet_186x116._SY116_CB405090404_.jpg" alt="Helmets">
+                                <span>Helmets</span></a>
+                            </div>
+                            <div class="right">
+                                <a href="www.amazon.com" alt="Amazon"> <img src="./images/Vaccum1x._SY116_CB410830552_.jpg" alt="Vaccumm cleaner">
+                                <span>Vaccumm cleaner</span></a>
+                            </div>
+                        </div>
+                        <a  href="#" id="box-end">See more</a>
+                </div>
+            </div>
+        <div class="rest">
+            <div class="battery">
+                <div class="inverter">
+                    
+                </div>
+            </div>
+        </div>
+    <footer>
+        <button class="btop">
+            <div >
+                <span id="btop">
+                    Back to Top
+                </span>
+            </div>
+        </button>
+        <div class="midfoot">
+            <div class="know fbox">
+              <ul> <p class="fboxhead">Get to Know <br>Us</p>
+                    <a href="www.google.com"><li>About Us</li></a>
+                    <a href="www.google.com"><li>Careers</li></a>
+                    <a href="www.google.com"><li>Press Releases</li></a>
+                    <a href="www.google.com"><li>Amazon Science</li></a>
+                </ul>
+            </div>
+            <div class="connect fbox">
+                <ul> <p class="fboxhead">Connect with <br>Us</p>
+                    <a href="www.google.com"><li>Facebook</li></a>
+                    <a href="www.google.com"><li>Twitter</li></a>
+                    <a href="www.google.com"><li>Instagram</li></a>
+                </ul>
+            </div>
+            <div class="money fbox">
+                <ul> <p class="fboxhead">Make Money with Us</p>
+                    <a href="www.google.com"><li>Sell on Amazon</li></a>
+                    <a href="www.google.com"><li>Sell under Amazon<br> Accelerator</li></a>
+                    <a href="www.google.com"><li>Protect and Build Your Brand</li></a>
+                    <a href="www.google.com"><li>Amazon Global Selling</li></a>
+                    <a href="www.google.com"><li>Become an Affiliate</li></a>
+                    <a href="www.google.com"><li>Fulfilment by Amazon </li></a>
+                    <a href="www.google.com"><li>Advertise Your Products</li></a>
+                    <a href="www.google.com"><li>Amazon Pay on Merchants</li></a>
+                </ul>
+            </div>
+            <div class="help fbox">
+                <ul> <p class="fboxhead">Let Us Help You</p>
+                    <a href="www.google.com"><li>COVID-19 and Amazon</li></a>
+                    <a href="www.google.com"><li>Your Account</li></a>
+                    <a href="www.google.com"><li>Returns Centre</li></a>
+                    <a href="www.google.com"><li>Recalls and Product Safety<br> Alerts</li></a>
+                    <a href="www.google.com"><li>100% Purchase Protection</li></a>
+                    <a href="www.google.com"><li>Amazon App Download</li></a>
+                    <a href="www.google.com"><li>Help</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="bfoot">
+            <div class="blogo">
+                <img id="blogo" src="./images/amazon-logo-12.png">
+            </div>
+            <div class="langcountry">
+                <div>
+                    <button id="pre">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
+                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855q-.215.403-.395.872c.705.157 1.472.257 2.282.287zM4.249 3.539q.214-.577.481-1.078a7 7 0 0 1 .597-.933A7 7 0 0 0 3.051 3.05q.544.277 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9 9 0 0 1-1.565-.667A6.96 6.96 0 0 0 1.018 7.5zm1.4-2.741a12.3 12.3 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332M8.5 5.09V7.5h2.99a12.3 12.3 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.6 13.6 0 0 1 7.5 10.91V8.5zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741zm-3.282 3.696q.18.469.395.872c.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a7 7 0 0 1-.598-.933 9 9 0 0 1-.481-1.079 8.4 8.4 0 0 0-1.198.49 7 7 0 0 0 2.276 1.522zm-1.383-2.964A13.4 13.4 0 0 1 3.508 8.5h-2.49a6.96 6.96 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667m6.728 2.964a7 7 0 0 0 2.275-1.521 8.4 8.4 0 0 0-1.197-.49 9 9 0 0 1-.481 1.078 7 7 0 0 1-.597.933M8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855q.216-.403.395-.872A12.6 12.6 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.96 6.96 0 0 0 14.982 8.5h-2.49a13.4 13.4 0 0 1-.437 3.008M14.982 7.5a6.96 6.96 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008zM11.27 2.461q.266.502.482 1.078a8.4 8.4 0 0 0 1.196-.49 7 7 0 0 0-2.275-1.52c.218.283.418.597.597.932m-.488 1.343a8 8 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+                          </svg>         English
+                    </button>
+                </div>
+                <div>
+                    <button>
+                    <img src="./images/Flag_of_India.svg.webp" id="footflag">       India
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="last">
+
+        </div>
+    </footer>
+        
+</body>
+</html>
